@@ -1,0 +1,2152 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onDataRange" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-mrh-ontology#fscaId"
+  } ],
+  "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ]
+}, {
+  "@id" : "_:genid19",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#InSituCorrection"
+    }, {
+      "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#Recall"
+    }, {
+      "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#SafetyAlert"
+    }, {
+      "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#UserNotice"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onDataRange" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#deviceId"
+  } ],
+  "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ]
+}, {
+  "@id" : "_:genid3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onDataRange" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#incidentId"
+  } ],
+  "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ]
+}, {
+  "@id" : "_:genid4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#Manufacturer"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#country"
+  } ],
+  "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ]
+}, {
+  "@id" : "_:genid5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onDataRange" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#authorizationNumber"
+  } ],
+  "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ]
+}, {
+  "@id" : "_:genid6",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onDataRange" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#udiDi"
+  } ],
+  "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ]
+}, {
+  "@id" : "_:genid7",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#Risk"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#deviceType"
+  } ],
+  "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ]
+}, {
+  "@id" : "_:genid8",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onDataRange" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#riskId"
+  } ],
+  "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ]
+}, {
+  "@id" : "_:genid9",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#ContaminationRisk"
+    }, {
+      "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#CybersecurityRisk"
+    }, {
+      "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#DiagnosticRisk"
+    }, {
+      "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#InfectionRisk"
+    }, {
+      "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#InjuryRisk"
+    }, {
+      "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#InterferenceRisk"
+    }, {
+      "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#MalfunctionRisk"
+    }, {
+      "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#MaterialRisk"
+    }, {
+      "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#SoftwareRisk"
+    } ]
+  } ]
+}, {
+  "@id" : "http://publications.europa.eu/resource/authority/country",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Country scheme obtained from ns5."
+  }, {
+    "@language" : "en",
+    "@value" : "country scheme"
+  } ]
+}, {
+  "@id" : "http://publications.europa.eu/resource/authority/country/DEU",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2002/07/owl#sameAs" : [ {
+    "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#Germany"
+  } ]
+}, {
+  "@id" : "http://publications.europa.eu/resource/authority/country/ESP",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://publications.europa.eu/resource/authority/country/IRL",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2002/07/owl#sameAs" : [ {
+    "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#Ireland"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://www.w3.org/2002/07/owl#imports" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core"
+  }, {
+    "@id" : "http://xmlns.com/foaf/0.1/"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionIRI" : [ {
+    "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/1.0.0"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#BfArM",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#CompetentAuthority"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Competent authority for Ireland"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Health Products Regulatory Authority"
+  } ],
+  "http://xmlns.com/foaf/0.1/name" : [ {
+    "@value" : "Bundesinstitut für Arzneimittel und Medizinprodukte (BfArM)"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#ClassIII",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#MDRRiskClass"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Class III: High Risk / Strict NB and Design Audit"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Class III: High Risk"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#Close",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.semanticweb.org/kaik/ontologies/2026/3/mdr-ivdr-eu#inScheme" : [ {
+    "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#actionstatus"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Action status scheme: closed."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "action status scheme: closed"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#CompetentAuthority",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Represents a competent authority that supervised companies and institutions in a territory."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "competent authority"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#EUMedicalEntity"
+  }, {
+    "@id" : "http://xmlns.com/foaf/0.1/Organization"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#ContaminationRisk",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A sample contamination may occur."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "contamination risk"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#Risk"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#CorrectiveAction",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "An action taken to solve an incident."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "corrective action"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#EUMedicalEntity"
+  }, {
+    "@id" : "_:genid1"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#Critical",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.semanticweb.org/kaik/ontologies/2026/3/mdr-ivdr-eu#inScheme" : [ {
+    "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#severity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Severity critical"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "severity scheme: critical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#CybersecurityIncident",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A cibersecurity outcome got as outcome."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "cibersecurity incident"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#IncidentOutcome"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#CybersecurityRisk",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The device could be victim in a cyber attack."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "cybersecurity risk"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#Risk"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#DEV-0001",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#deviceName" : [ {
+    "@language" : "en",
+    "@value" : "HeartMate 3 LVAD"
+  } ],
+  "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#deviceType" : [ {
+    "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#ImplantableActiveDevice"
+  } ],
+  "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#intentedPurpose" : [ {
+    "@language" : "en",
+    "@value" : "Ventricular assist device for end-stage heart failure"
+  } ],
+  "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#isActive" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#isImplantable" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#isIvd" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "false"
+  } ],
+  "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#isReusable" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "false"
+  } ],
+  "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#manufacturer" : [ {
+    "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#MAN-001"
+  } ],
+  "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#regulatoryFramework" : [ {
+    "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#MDR"
+  } ],
+  "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#riskClass" : [ {
+    "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#ClassIII"
+  } ],
+  "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#udiDi" : [ {
+    "@value" : "(01)00380740009095"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#Device"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Ventricular assist device for end-stage heart failure"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "DEV-001: HeartMate 3 LVAD"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#Device",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Represents an IVR or MHR device."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "medical device"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#EUMedicalEntity"
+  }, {
+    "@id" : "_:genid2"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#DeviceMalfunction",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A device malfunction as outcome"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "device malfunction"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#IncidentOutcome"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#DeviceType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "type of device"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#EUMedicalEntity"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#DiagnosticError",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A diagnostic error got as outcome."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "diagnostic error"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#IncidentOutcome"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#DiagnosticRisk",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "An error in diagnostic may occur."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "diagnostic risk"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#Risk"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#EUMedicalEntity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "medical entity in EU"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#FSCA-001",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#actionStatus" : [ {
+    "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#Open"
+  } ],
+  "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#eudamedFscaRef" : [ {
+    "@value" : "EU-FSCA-2024-000001"
+  } ],
+  "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#incident" : [ {
+    "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#INC-001"
+  } ],
+  "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-mrh-ontology#actionDate" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2024-02-01"
+  } ],
+  "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-mrh-ontology#countriesAffected" : [ {
+    "@value" : "EU-wide"
+  } ],
+  "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-mrh-ontology#description" : [ {
+    "@language" : "en",
+    "@value" : "Safety alert issued to all implanting centres regarding anticoagulation protocol update for HeartMate 3 to reduce device thrombosis risk. INR target range revised to 2.0–3.0."
+  } ],
+  "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-mrh-ontology#devicesAffected" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "850"
+  } ],
+  "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-mrh-ontology#scope" : [ {
+    "@language" : "en",
+    "@value" : "All HeartMate 3 LVAD units implanted since 2020"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#SafetyAlert"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Safety alert issued to all implanting centres regarding anticoagulation protocol update for HeartMate 3 to reduce device thrombosis risk. INR target range revised to 2.0–3.0."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "FSCA-001 / EU-FSCA-2024-000001"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#Germany",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.semanticweb.org/kaik/ontologies/2026/3/mdr-ivdr-eu#inScheme" : [ {
+    "@id" : "http://publications.europa.eu/resource/authority/country"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Germany"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "country scheme: Germany"
+  } ],
+  "http://www.w3.org/2008/05/skos-xl#prefLabel" : [ {
+    "@value" : "\"Germany\"@en"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#HPRA",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#CompetentAuthority"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Competent authority for Germany"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Bundesinstitut für Arzneimittel und Medizinprodukte"
+  } ],
+  "http://xmlns.com/foaf/0.1/name" : [ {
+    "@value" : "Health Products Regulatory Authority (HPRA)"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#High",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.semanticweb.org/kaik/ontologies/2026/3/mdr-ivdr-eu#inScheme" : [ {
+    "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#probability"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "High probability"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "probability scheme: high"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#INC-001",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#correctiveActionTaken" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#detectionDate" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2024-01-10"
+  } ],
+  "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#device" : [ {
+    "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#DEV-0001"
+  } ],
+  "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#eudamedIncidentRef" : [ {
+    "@value" : "EU-INC-2024-000001"
+  } ],
+  "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#eventDate" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2024-01-08"
+  } ],
+  "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#outcome" : [ {
+    "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#embolic_stroke"
+  } ],
+  "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#relatedRisk" : [ {
+    "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#RSK-003"
+  } ],
+  "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#reportDate" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2024-01-15"
+  } ],
+  "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#reportingManufacturer" : [ {
+    "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#MAN-001"
+  } ],
+  "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-mrh-ontology#description" : [ {
+    "@value" : "Patient implanted with HeartMate 3 LVAD developed ischemic stroke 6 months post-implant. Device thrombus confirmed by echocardiography."
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#Incident"
+  }, {
+    "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#SeriousIncident"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "INC-001: EU-INC-2024-000001"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#IVDR",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#RegulatoryFramework"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Regulatory framework for In Vitro Diagnosis Device."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "IVDR - In vitro diagnosis regulation"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#IVDRiskClass",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Class A: Low patient and public health risk\nClass B: Moderate patient risk and/or low public health risk\nClass C: High patient risk and/or moderate public health risk\nClass D: High patient risk and high public health risk"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "IVDR risk classification"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#RiskClass"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#ImplantableActiveDevice",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#DeviceType"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A device that is implantable and active."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "implantable active device"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#InSituCorrection",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Corrective action taken in the same place it happened."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "in situ correction"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#CorrectiveAction"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#InapropriateShockDelivery",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "As a result you got an inapropriate shock delivery"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "inapropriate shock delivery"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#IncidentOutcome"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#Incident",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Models an incident."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "incident"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#EUMedicalEntity"
+  }, {
+    "@id" : "_:genid3"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#IncidentOutcome",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Represents an outcome got because of an incident."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "incident outcome"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#EUMedicalEntity"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#InfectionRisk",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "An infection may occur."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "infection risk"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#Risk"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#InjuryRisk",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The possibility that a person may suffer physical harm."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "injury risk"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#Risk"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#InterferenceRisk",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The possibility the device could receive interferences that affect to the correct behaviour."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "interference risk"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#Risk"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#Ireland",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.semanticweb.org/kaik/ontologies/2026/3/mdr-ivdr-eu#inScheme" : [ {
+    "@id" : "http://publications.europa.eu/resource/authority/country"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Ireland"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "country scheme: Ireland"
+  } ],
+  "http://www.w3.org/2008/05/skos-xl#prefLabel" : [ {
+    "@value" : "\"Ireland\"@en"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#Low",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.semanticweb.org/kaik/ontologies/2026/3/mdr-ivdr-eu#inScheme" : [ {
+    "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#probability"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "probability scheme: low"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#MAN-001",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#authorizationNumber" : [ {
+    "@value" : "IE/2017/001234"
+  } ],
+  "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#contactEmail" : [ {
+    "@value" : "regulatory@medtronic.com"
+  } ],
+  "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#country" : [ {
+    "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#Ireland"
+  } ],
+  "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#eudamedSrn" : [ {
+    "@value" : "SRN-IE-MED-0001"
+  } ],
+  "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#manufacturerId" : [ {
+    "@value" : "MAN-001"
+  } ],
+  "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#supervisedBy" : [ {
+    "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#HPRA"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#Manufacturer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Medtronic plc is an Irish manufacturer."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "MAN-001: Medtronic plc"
+  } ],
+  "http://xmlns.com/foaf/0.1/name" : [ {
+    "@value" : "Medtronic plc"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#MDR",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#RegulatoryFramework"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Regulatory Framework for medical devices."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "MDR - Medical Device Regulation"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#MDRRiskClass",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Class I: Low Risk, Self-Declaration\nClass IIa: Medium-Low Risk, NB Audit\nClass IIb: Medium-High Risk, Comprehensive NB Audit\nClass III: High Risk, Strictest NB and Design Audit"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "MDR risk classification"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#RiskClass"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#MalfunctionRisk",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The possibility that the device may not work in a proper way."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "malfunction risk"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#Risk"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#Manufacturer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Represents a company which produces medical devices."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "manufacturer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#EUMedicalEntity"
+  }, {
+    "@id" : "http://xmlns.com/foaf/0.1/Organization"
+  }, {
+    "@id" : "_:genid4"
+  }, {
+    "@id" : "_:genid5"
+  }, {
+    "@id" : "_:genid6"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#MaterialRisk",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The possibility that materials may be damaged."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "material risk"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#Risk"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#Medium",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.semanticweb.org/kaik/ontologies/2026/3/mdr-ivdr-eu#inScheme" : [ {
+    "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#probability"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Medium severity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "severity scheme: medium"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#Moderate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.semanticweb.org/kaik/ontologies/2026/3/mdr-ivdr-eu#inScheme" : [ {
+    "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#severity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Moderate severity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "severity scheme: moderate"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#NearMissIncident",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "An incident that did not result in harm, damage, or loss, but had a potential to do so."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "near miss incident"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#Incident"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#SeriousIncident"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#Open",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.semanticweb.org/kaik/ontologies/2026/3/mdr-ivdr-eu#inScheme" : [ {
+    "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#actionstatus"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "action status scheme: open"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#PatientHarm",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#RiskCategory"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Patient ended up harmed."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "patient harm"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#IncidentOutcome"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#RSK-003",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#affectedDeviceType" : [ {
+    "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#ImplantableActiveDevice"
+  } ],
+  "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#imdrfCode" : [ {
+    "@value" : "A0201"
+  } ],
+  "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#probability" : [ {
+    "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#Low"
+  } ],
+  "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#riskCategory" : [ {
+    "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#PatientHarm"
+  } ],
+  "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#riskId" : [ {
+    "@value" : "RSK-003"
+  } ],
+  "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#riskName" : [ {
+    "@value" : "Thrombosis - device-related"
+  } ],
+  "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#severity" : [ {
+    "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#Critical"
+  } ],
+  "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-mrh-ontology#description" : [ {
+    "@language" : "en",
+    "@value" : "Thrombus formation on device surface causing embolic events"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#InjuryRisk"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#Recall",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "A recall done to fix the incident."
+  }, {
+    "@language" : "en",
+    "@value" : "recall"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#CorrectiveAction"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#RegulatoryFramework",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A set of laws, regulations, guidelines and standards that govern activities in a medical domain."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "regulatory framework"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#EUMedicalEntity"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#Risk",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The possibility that an event may occur and have negative effect."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "risk"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#EUMedicalEntity"
+  }, {
+    "@id" : "_:genid7"
+  }, {
+    "@id" : "_:genid8"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#RiskCategory",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Represents a risk category"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "risk category"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#EUMedicalEntity"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#RiskClass",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A risk-oriented device classification."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "device risk class"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#EUMedicalEntity"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#SafetyAlert",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A safe alert was raised to mitigate the risk and fix the incident."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "safe alert"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#CorrectiveAction"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#Serious",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.semanticweb.org/kaik/ontologies/2026/3/mdr-ivdr-eu#inScheme" : [ {
+    "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#severity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Serious severity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "severity scheme: serious"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#SeriousIncident",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "An incident that supposed a serious harm or damage."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "serious incident"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#Incident"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#SeriousPacientInjury",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "As a result, the patient suffered a serious injury"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "serious patient injury"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#IncidentOutcome"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#SoftwareRisk",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The possibility that software may not work properly."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "software risk"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#Risk"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#SurgicalInterventionRequired",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "As a result, a surgical intervention was necessary."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "surgical intervention required"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#IncidentOutcome"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#UserNotice",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "User was notified."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "user notice"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#CorrectiveAction"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#actionStatus",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The corrective action status."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#CorrectiveAction"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "action status"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#actionstatus",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#ConceptScheme" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Concept Scheme for Action Status"
+  }, {
+    "@language" : "en",
+    "@value" : "action status scheme"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#affectedDeviceType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Device type affected by determined risk."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#Risk"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "affected device type"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#DeviceType"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#authorizationNumber",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The manufacturer's authorization number."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#Manufacturer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "authorization number"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#closureDate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The date the action finished."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#CorrectiveAction"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#date"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#contactEmail",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#Manufacturer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "The manufacturer's contact email."
+  }, {
+    "@language" : "en",
+    "@value" : "contact email"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#correctiveActionTaken",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Boolean that determines if a corrective action was taken to solve the incident or not."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#Incident"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "corrective action taken"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#country",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#Manufacturer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#countryReported",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The country the incident was reported from."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#Incident"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "country reported"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#detectionDate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The date the incident was detected."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#Incident"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "detection date"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#date"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#device",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Device affected by the incident."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#Incident"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "affected device"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#Device"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#deviceId",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Device unique identifier."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#Device"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "device identifier"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#deviceName",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The device name."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#Device"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "device name"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#deviceType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Type of device."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#Device"
+  }, {
+    "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#Risk"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "device type"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#DeviceType"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#embolic_stroke",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#SeriousPacientInjury"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Incident results as an embolic stroke."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "embolic stroke"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#eudamedFscaRef",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "EUDAMED identifier for corrective action."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "EUDAMED corrective action reference"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#eudamedIncidentRef",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The EUDAMED incident reference"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#Incident"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "EUDAMED incident reference"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#eudamedSrn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "EUDAMED manufacturer identifier."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#Manufacturer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "EUDAMED SRN"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#eventDate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The date the event occured."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#Incident"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "event date"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#date"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#imdrfCode",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "IMDRF code for the risk."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#Risk"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "IMDRF code"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#incident",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Incident related with the corrective action."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#CorrectiveAction"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "incident"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#Incident"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#incidentId",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#Incident"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "incident identifier"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#intentedPurpose",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The intented purpose of a device."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#Device"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "intented purpose"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#isActive",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Boolean that determines if devices is active or not."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#Device"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is active?"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#isImplantable",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Boolean that determines if device is implantable or not."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#Device"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is implantable?"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#isIvd",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Boolean that determines if an device is for in vitro diagnosis."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#Device"
+  }, {
+    "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#Risk"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is IVD?"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#isReusable",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Boolean that determines if a device is reusable."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#Device"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is reusable?"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#manufacturer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The company that produces the device."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#Device"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "manufacturer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#Manufacturer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#manufacturerId",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Manufacturer's unique identifier."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#Manufacturer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "manufacturer identifier"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#outcome",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The incident result."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#Incident"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "outcome"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#IncidentOutcome"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#pacientAge",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The age of the patient affected."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#Incident"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "patient age"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#pacientSex",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Sex of the patient affected."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#Incident"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "patient sex"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#probability",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#ConceptScheme" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The probability that a risk may take place."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#Risk"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "probability scheme"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#regulatoryFramework",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The regulatory framework that rules a device."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "regulatory framework"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#relatedRisk",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Risk related with the incident."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#Incident"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "related risk"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#Risk"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#reportDate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The date the incident was reported."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#Incident"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "date of report"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#date"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#reportingEntity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "DEPRECATED Manufacturer that reported the incident"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#Incident"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "DEPRECATED reporting entity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#Manufacturer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ],
+  "http://www.w3.org/2002/07/owl#deprecated" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#reportingManufacturer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The manufacturer that reported the incident."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#Incident"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "reporting manufacturer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#Manufacturer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#riskCategory",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Category of a risk."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#Risk"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "risk category"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#RiskCategory"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#riskClass",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A risk-oriented device classification."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#Device"
+  }, {
+    "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#Risk"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "risk class"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#RiskClass"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#riskId",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Unique identifier for the risk."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#Risk"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "risk identifier"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#riskName",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Name of the risk."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#Risk"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "risk name"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#severity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#ConceptScheme" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Severity of determined risk."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#Risk"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "severity scheme"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#supervisedBy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The authority that supervises a manufacturer."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#Manufacturer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "supervised by"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#CompetentAuthority"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#udiDi",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Identifier for EUDAMED to track device models."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#Device"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "unique device identifier - device identifier"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-mrh-ontology#CorrectiveAction",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-mrh-ontology#Incident",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-mrh-ontology#SeriousIncident",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-mrh-ontology#SeriousPacientInjury",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-mrh-ontology#actionDate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The date that the action was started."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#CorrectiveAction"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "action date"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#date"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-mrh-ontology#closureDate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The date the action was ended."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#CorrectiveAction"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "closure date"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#date"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-mrh-ontology#countriesAffected",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The countries or region affected by the incident."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#CorrectiveAction"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "countries affected"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-mrh-ontology#description",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A descriptive text related with the entity."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#CorrectiveAction"
+  }, {
+    "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#Incident"
+  }, {
+    "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#IncidentOutcome"
+  }, {
+    "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#Risk"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "description"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-mrh-ontology#devicesAffected",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Number of devices affected by a corrective action."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#CorrectiveAction"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "devices affected"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-mrh-ontology#fscaId",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The corrective action unique identifier."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#CorrectiveAction"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "FSCA identifier"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-mrh-ontology#scope",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#CorrectiveAction"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "The corrective action scope."
+  }, {
+    "@language" : "en",
+    "@value" : "scope"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/mdr-ivdr-eu#Closed",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/mdr-ivdr-eu#inScheme",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://www.w3.org/2001/XMLSchema#date",
+  "@type" : [ "http://www.w3.org/2000/01/rdf-schema#Datatype" ]
+}, {
+  "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty",
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#Device"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#RegulatoryFramework"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/2008/05/skos-xl#prefLabel",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://xmlns.com/foaf/0.1/name",
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#incidentId"
+  } ]
+} ]
