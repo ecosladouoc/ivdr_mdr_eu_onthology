@@ -3,5 +3,8 @@
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix : <> .
 <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/1.0.0> a prov:Entity;
+	 dc:title "In Vitro Diagnosis and High Risk Medical Devices Ontology";
+	 prov:wasAttributedTo :agent0;
 	 prov:wasAttributedTo <https://github.com/dgarijo/Widoco/>,<http://www.essepuntato.it/lode/>;
 .
+:agent0 a prov:Agent; foaf:name "José Enrique Coslado Santibáñez".
