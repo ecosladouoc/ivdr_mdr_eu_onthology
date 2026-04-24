@@ -20,8 +20,10 @@
         <owl:versionIRI rdf:resource="http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/1.0.0"/>
         <owl:imports rdf:resource="http://www.w3.org/2004/02/skos/core"/>
         <owl:imports rdf:resource="http://xmlns.com/foaf/0.1/"/>
+        <dc:title xml:lang="en">In Vitro Diagnosis and High Risk Medical Devices Ontology EU</dc:title>
         <terms:creator xml:lang="en">José Enrique Coslado Santibáñez</terms:creator>
         <terms:title xml:lang="en">In Vitro Diagnosis and High Risk Medical Devices Ontology</terms:title>
+        <rdfs:label>In Vitro Diagnosis and High Risk Medical Devices Ontology EU</rdfs:label>
     </owl:Ontology>
     
 

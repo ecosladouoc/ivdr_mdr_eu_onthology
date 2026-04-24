@@ -10,8 +10,10 @@
                                                                                       owl:versionIRI <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/1.0.0> ;
                                                                                       owl:imports <http://www.w3.org/2004/02/skos/core> ,
                                                                                                   <http://xmlns.com/foaf/0.1/> ;
+                                                                                      <http://purl.org/dc/elements/1.1/title> "In Vitro Diagnosis and High Risk Medical Devices Ontology EU"@en ;
                                                                                       <http://purl.org/dc/terms/creator> "José Enrique Coslado Santibáñez"@en ;
-                                                                                      <http://purl.org/dc/terms/title> "In Vitro Diagnosis and High Risk Medical Devices Ontology"@en .
+                                                                                      <http://purl.org/dc/terms/title> "In Vitro Diagnosis and High Risk Medical Devices Ontology"@en ;
+                                                                                      rdfs:label "In Vitro Diagnosis and High Risk Medical Devices Ontology EU" .
 
 #################################################################
 #    Annotation properties

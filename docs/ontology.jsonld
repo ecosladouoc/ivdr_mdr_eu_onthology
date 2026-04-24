@@ -168,6 +168,10 @@
 }, {
   "@id" : "http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu",
   "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://purl.org/dc/elements/1.1/title" : [ {
+    "@language" : "en",
+    "@value" : "In Vitro Diagnosis and High Risk Medical Devices Ontology EU"
+  } ],
   "http://purl.org/dc/terms/creator" : [ {
     "@language" : "en",
     "@value" : "José Enrique Coslado Santibáñez"
@@ -175,6 +179,9 @@
   "http://purl.org/dc/terms/title" : [ {
     "@language" : "en",
     "@value" : "In Vitro Diagnosis and High Risk Medical Devices Ontology"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "In Vitro Diagnosis and High Risk Medical Devices Ontology EU"
   } ],
   "http://www.w3.org/2002/07/owl#imports" : [ {
     "@id" : "http://www.w3.org/2004/02/skos/core"
