@@ -80,7 +80,7 @@
         <rdfs:domain rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <rdfs:range rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
         <rdfs:comment xml:lang="en">in scheme</rdfs:comment>
-        <rdfs:comment xml:lang="en">is in scheme</rdfs:comment>
+        <rdfs:label xml:lang="en">is in scheme</rdfs:label>
     </owl:ObjectProperty>
     
 
