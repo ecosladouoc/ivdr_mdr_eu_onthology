@@ -47,11 +47,7 @@ This ontology has the following classes and properties.</span>
    </li>
    <li>
       <a href="#/EUMedicalEntity"
-         title="http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/EUMedicalEntity">Generic Medical Entity</a>
-   </li>
-   <li>
-      <a href="#/InSituCorrection"
-         title="http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/InSituCorrection">in situ correction</a>
+         title="http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/EUMedicalEntity">EUMedicalEntity</a>
    </li>
    <li>
       <a href="#/InapropriateShockDelivery"
@@ -74,6 +70,10 @@ This ontology has the following classes and properties.</span>
          title="http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/InjuryRisk">InjuryRisk</a>
    </li>
    <li>
+      <a href="#/InSituCorrection"
+         title="http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/InSituCorrection">inSituCorrection</a>
+   </li>
+   <li>
       <a href="#/InterferenceRisk"
          title="http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/InterferenceRisk">InterferenceRisk</a>
    </li>
@@ -90,6 +90,10 @@ This ontology has the following classes and properties.</span>
          title="http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/Manufacturer">Manufacturer</a>
    </li>
    <li>
+      <a href="#ManufacturerWithCriticalIncidentReported"
+         title="http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#ManufacturerWithCriticalIncidentReported">ManufacturerWithCriticalIncidentReported</a>
+   </li>
+   <li>
       <a href="#/MaterialRisk"
          title="http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/MaterialRisk">MaterialRisk</a>
    </li>
@@ -102,14 +106,8 @@ This ontology has the following classes and properties.</span>
          title="http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/NearMissIncident">NearMissIncident</a>
    </li>
    <li>
-      <a href="#/PatientHarm"
-         title="http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/PatientHarm">
-         <span>PatientHarm</span>
-      </a>
-   </li>
-   <li>
       <a href="#/Recall"
-         title="http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/Recall">recall</a>
+         title="http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/Recall">Recall</a>
    </li>
    <li>
       <a href="#/RegulatoryFramework"
@@ -124,12 +122,18 @@ This ontology has the following classes and properties.</span>
          title="http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/RiskCategory">RiskCategory</a>
    </li>
    <li>
+      <a href="#/PatientHarm"
+         title="http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/PatientHarm">
+         <span>RiskCategory: PatientHarm</span>
+      </a>
+   </li>
+   <li>
       <a href="#/RiskClass"
          title="http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/RiskClass">RiskClass</a>
    </li>
    <li>
       <a href="#/SafetyAlert"
-         title="http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/SafetyAlert">safe alert</a>
+         title="http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/SafetyAlert">SafeAlert</a>
    </li>
    <li>
       <a href="#/SeriousIncident"
@@ -149,7 +153,7 @@ This ontology has the following classes and properties.</span>
    </li>
    <li>
       <a href="#/UserNotice"
-         title="http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/UserNotice">user notice</a>
+         title="http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/UserNotice">UserNotice</a>
    </li>
 </ul><h4>Object Properties</h4><ul xmlns:widoco="https://w3id.org/widoco/vocab#"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -167,6 +171,18 @@ This ontology has the following classes and properties.</span>
    <li>
       <a href="#/affectedDeviceType"
          title="http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/affectedDeviceType">affectedDeviceType</a>
+   </li>
+   <li>
+      <a href="#/probability"
+         title="http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/probability">
+         <span>ConceptScheme: probability</span>
+      </a>
+   </li>
+   <li>
+      <a href="#/severity"
+         title="http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/severity">
+         <span>ConceptScheme: severity</span>
+      </a>
    </li>
    <li>
       <a href="#/country"
@@ -207,10 +223,8 @@ This ontology has the following classes and properties.</span>
          title="http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/outcome">outcome</a>
    </li>
    <li>
-      <a href="#/probability"
-         title="http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/probability">
-         <span>probability</span>
-      </a>
+      <a href="#possiblyAffectedByRisk"
+         title="http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#possiblyAffectedByRisk">possiblyAffectedByRisk</a>
    </li>
    <li>
       <a href="#/regulatoryFramework"
@@ -233,12 +247,6 @@ This ontology has the following classes and properties.</span>
          title="http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/riskClass">riskClass</a>
    </li>
    <li>
-      <a href="#/severity"
-         title="http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/severity">
-         <span>severity</span>
-      </a>
-   </li>
-   <li>
       <a href="#/supervisedBy"
          title="http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/supervisedBy">supervisedBy</a>
    </li>
@@ -255,9 +263,7 @@ This ontology has the following classes and properties.</span>
    </li>
    <li>
       <a href="#/closureDate"
-         title="http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/closureDate">
-         <span>closure Date</span>
-      </a>
+         title="http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/closureDate">closureDate</a>
    </li>
    <li>
       <a href="#http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-mrh-ontology#closureDate"
@@ -269,9 +275,7 @@ This ontology has the following classes and properties.</span>
    </li>
    <li>
       <a href="#/correctiveActionDescription"
-         title="http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/correctiveActionDescription">
-         <span>corrective Action Description</span>
-      </a>
+         title="http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/correctiveActionDescription">correctiveActionDescription</a>
    </li>
    <li>
       <a href="#/correctiveActionTaken"
@@ -280,6 +284,10 @@ This ontology has the following classes and properties.</span>
    <li>
       <a href="#http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-mrh-ontology#countriesAffected"
          title="http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-mrh-ontology#countriesAffected">countriesAffected</a>
+   </li>
+   <li>
+      <a href="#criticalIncidentReported"
+         title="http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#criticalIncidentReported">criticalIncidentReported</a>
    </li>
    <li>
       <a href="#http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-mrh-ontology#description"
@@ -327,19 +335,15 @@ This ontology has the following classes and properties.</span>
    </li>
    <li>
       <a href="#/incidentDescription"
-         title="http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/incidentDescription">
-         <span>incident Description</span>
-      </a>
-   </li>
-   <li>
-      <a href="#/incidentOutcomeDescription"
-         title="http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/incidentOutcomeDescription">
-         <span>incident Outcome Description</span>
-      </a>
+         title="http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/incidentDescription">incidentDescription</a>
    </li>
    <li>
       <a href="#/incidentId"
          title="http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/incidentId">incidentId</a>
+   </li>
+   <li>
+      <a href="#/incidentOutcomeDescription"
+         title="http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/incidentOutcomeDescription">incidentOutcomeDescription</a>
    </li>
    <li>
       <a href="#/intentedPurpose"
@@ -397,28 +401,52 @@ This ontology has the following classes and properties.</span>
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     class="hlist">
    <li>
-      <a href="#/actionstatus"
-         title="http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/actionstatus">actionstatus</a>
+      <a href="#/Close"
+         title="http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/Close">actionstatus: Closed</a>
+   </li>
+   <li>
+      <a href="#/Open"
+         title="http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/Open">actionstatus: Open</a>
+   </li>
+   <li>
+      <a href="#BfArM"
+         title="http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#BfArM">CompetentAuthority: Bundesinstitut für Arzneimittel und Medizinprodukte</a>
    </li>
    <li>
       <a href="#/HPRA"
-         title="http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/HPRA">Bundesinstitut für Arzneimittel und Medizinprodukte</a>
+         title="http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/HPRA">CompetentAuthority: Health Products Regulatory Authority</a>
    </li>
    <li>
-      <a href="#/ClassIII"
-         title="http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/ClassIII">Class III: High Risk</a>
-   </li>
-   <li>
-      <a href="#/Close"
-         title="http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/Close">Closed</a>
+      <a href="#/actionstatus"
+         title="http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/actionstatus">ConceptScheme: actionstatus</a>
    </li>
    <li>
       <a href="#http://publications.europa.eu/resource/authority/country"
-         title="http://publications.europa.eu/resource/authority/country">country</a>
+         title="http://publications.europa.eu/resource/authority/country">ConceptScheme: country</a>
    </li>
    <li>
-      <a href="#/Critical"
-         title="http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/Critical">Critical</a>
+      <a href="#/probability"
+         title="http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/probability">
+         <span>ConceptScheme: probability</span>
+      </a>
+   </li>
+   <li>
+      <a href="#/severity"
+         title="http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/severity">
+         <span>ConceptScheme: severity</span>
+      </a>
+   </li>
+   <li>
+      <a href="#/FSCA-001"
+         title="http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/FSCA-001">CorrectiveAction: FSCA-001 / EU-FSCA-2024-000001</a>
+   </li>
+   <li>
+      <a href="#/Germany"
+         title="http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/Germany">country: Germany</a>
+   </li>
+   <li>
+      <a href="#/Ireland"
+         title="http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/Ireland">country: Ireland</a>
    </li>
    <li>
       <a href="#http://publications.europa.eu/resource/authority/country/DEU"
@@ -428,27 +456,11 @@ This ontology has the following classes and properties.</span>
    </li>
    <li>
       <a href="#/DEV-0001"
-         title="http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/DEV-0001">DEV-001: HeartMate 3 LVAD</a>
+         title="http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/DEV-0001">Device: DEV-001 / HeartMate 3 LVAD</a>
    </li>
    <li>
-      <a href="#/embolic_stroke"
-         title="http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/embolic_stroke">embolic stroke</a>
-   </li>
-   <li>
-      <a href="#/FSCA-001"
-         title="http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/FSCA-001">FSCA-001 / EU-FSCA-2024-000001</a>
-   </li>
-   <li>
-      <a href="#/Germany"
-         title="http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/Germany">Germany</a>
-   </li>
-   <li>
-      <a href="#/BfArM"
-         title="http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/BfArM">Health Products Regulatory Authority</a>
-   </li>
-   <li>
-      <a href="#/High"
-         title="http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/High">High</a>
+      <a href="#/ImplantableActiveDevice"
+         title="http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/ImplantableActiveDevice">DeviceType: Implantable active device</a>
    </li>
    <li>
       <a href="#http://publications.europa.eu/resource/authority/country/IRL"
@@ -457,69 +469,61 @@ This ontology has the following classes and properties.</span>
       </a>
    </li>
    <li>
-      <a href="#/ImplantableActiveDevice"
-         title="http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/ImplantableActiveDevice">implantable active device</a>
-   </li>
-   <li>
       <a href="#/INC-001"
-         title="http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/INC-001">INC-001: EU-INC-2024-000001</a>
+         title="http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/INC-001">Incident: INC-001 / EU-INC-2024-000001</a>
    </li>
    <li>
-      <a href="#/Ireland"
-         title="http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/Ireland">Ireland</a>
-   </li>
-   <li>
-      <a href="#/IVDR"
-         title="http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/IVDR">IVDR - In vitro diagnosis regulation</a>
-   </li>
-   <li>
-      <a href="#/Low"
-         title="http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/Low">Low</a>
+      <a href="#/embolic_stroke"
+         title="http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/embolic_stroke">IncidentOutcome: embolic stroke</a>
    </li>
    <li>
       <a href="#/MAN-001"
-         title="http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/MAN-001">MAN-001: Medtronic plc</a>
+         title="http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/MAN-001">Manufacturer: MAN-001/Medtronic plc</a>
    </li>
    <li>
-      <a href="#/MDR"
-         title="http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/MDR">MDR - Medical Device Regulation</a>
+      <a href="#/High"
+         title="http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/High">probability: High</a>
+   </li>
+   <li>
+      <a href="#/Low"
+         title="http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/Low">probability: Low</a>
    </li>
    <li>
       <a href="#/Medium"
-         title="http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/Medium">Medium</a>
+         title="http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/Medium">probabity: Medium</a>
    </li>
    <li>
-      <a href="#/Moderate"
-         title="http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/Moderate">Moderate</a>
+      <a href="#/IVDR"
+         title="http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/IVDR">RegulatoryFramework: IVDR - In vitro diagnosis regulation</a>
    </li>
    <li>
-      <a href="#/Open"
-         title="http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/Open">Open</a>
-   </li>
-   <li>
-      <a href="#/PatientHarm"
-         title="http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/PatientHarm">
-         <span>PatientHarm</span>
-      </a>
-   </li>
-   <li>
-      <a href="#/probability"
-         title="http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/probability">
-         <span>probability</span>
-      </a>
+      <a href="#/MDR"
+         title="http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/MDR">RegulatoryFramework: MDR - Medical Device Regulation</a>
    </li>
    <li>
       <a href="#/RSK-003"
          title="http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/RSK-003">Risk: RSK-003</a>
    </li>
    <li>
-      <a href="#/Serious"
-         title="http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/Serious">Serious</a>
+      <a href="#/PatientHarm"
+         title="http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/PatientHarm">
+         <span>RiskCategory: PatientHarm</span>
+      </a>
    </li>
    <li>
-      <a href="#/severity"
-         title="http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/severity">
-         <span>severity</span>
-      </a>
+      <a href="#/ClassIII"
+         title="http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/ClassIII">RiskClass: Class III / High Risk</a>
+   </li>
+   <li>
+      <a href="#/Critical"
+         title="http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/Critical">severity: Critical</a>
+   </li>
+   <li>
+      <a href="#/Moderate"
+         title="http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/Moderate">severity: Moderate</a>
+   </li>
+   <li>
+      <a href="#/Serious"
+         title="http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/Serious">severity: Serious</a>
    </li>
 </ul>

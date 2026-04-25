@@ -40,6 +40,14 @@
 # #################################################################
 # 
 # 
+# http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#possiblyAffectedByRisk
+<http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#possiblyAffectedByRisk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#possiblyAffectedByRisk> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#possiblyAffectedByRisk> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/Device> .
+<http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#possiblyAffectedByRisk> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/Risk> .
+<http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#possiblyAffectedByRisk> <http://www.w3.org/2000/01/rdf-schema#comment> "Inferred property that relates a device with a risk. Calculated by the relation with relationType."@en .
+<http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#possiblyAffectedByRisk> <http://www.w3.org/2000/01/rdf-schema#label> "possiblyAffectedByRisk"@en .
+# 
 # http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/actionStatus
 <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/actionStatus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/actionStatus> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
@@ -125,6 +133,8 @@
 # http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/regulatoryFramework
 <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/regulatoryFramework> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/regulatoryFramework> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/regulatoryFramework> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/Device> .
+<http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/regulatoryFramework> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/RegulatoryFramework> .
 <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/regulatoryFramework> <http://www.w3.org/2000/01/rdf-schema#comment> "The regulatory framework that rules a device."@en .
 <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/regulatoryFramework> <http://www.w3.org/2000/01/rdf-schema#label> "regulatoryFramework"@en .
 # 
@@ -189,6 +199,9 @@
 # http://www.semanticweb.org/kaik/ontologies/2026/3/mdr-ivdr-eu#inScheme
 <http://www.semanticweb.org/kaik/ontologies/2026/3/mdr-ivdr-eu#inScheme> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 # 
+# http://www.semanticweb.org/kaik/ontologies/2026/3/mdr-ivdr-eu#skos:inScheme
+<http://www.semanticweb.org/kaik/ontologies/2026/3/mdr-ivdr-eu#skos:inScheme> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
 # 
 # 
 # #################################################################
@@ -197,6 +210,14 @@
 # #
 # #################################################################
 # 
+# 
+# http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#criticalIncidentReported
+<http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#criticalIncidentReported> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#criticalIncidentReported> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#criticalIncidentReported> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/Manufacturer> .
+<http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#criticalIncidentReported> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+<http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#criticalIncidentReported> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates wheter the manufacturer reported an incident with critical risk or not."@en .
+<http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#criticalIncidentReported> <http://www.w3.org/2000/01/rdf-schema#label> "criticalIncidentReported"@en .
 # 
 # http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/authorizationNumber
 <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/authorizationNumber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
@@ -212,6 +233,7 @@
 <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/closureDate> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/CorrectiveAction> .
 <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/closureDate> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#date> .
 <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/closureDate> <http://www.w3.org/2000/01/rdf-schema#comment> "The date the action finished."@en .
+<http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/closureDate> <http://www.w3.org/2000/01/rdf-schema#label> "closureDate"@en .
 # 
 # http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/contactEmail
 <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/contactEmail> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
@@ -226,6 +248,8 @@
 <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/correctiveActionDescription> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
 <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/correctiveActionDescription> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/CorrectiveAction> .
 <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/correctiveActionDescription> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/correctiveActionDescription> <http://www.w3.org/2000/01/rdf-schema#comment> "A text describing the corrective action."@en .
+<http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/correctiveActionDescription> <http://www.w3.org/2000/01/rdf-schema#label> "correctiveActionDescription"@en .
 # 
 # http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/correctiveActionTaken
 <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/correctiveActionTaken> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
@@ -304,6 +328,8 @@
 <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/incidentDescription> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
 <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/incidentDescription> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/Incident> .
 <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/incidentDescription> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/incidentDescription> <http://www.w3.org/2000/01/rdf-schema#comment> "A text describing the incident."@en .
+<http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/incidentDescription> <http://www.w3.org/2000/01/rdf-schema#label> "incidentDescription"@en .
 # 
 # http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/incidentId
 <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/incidentId> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
@@ -318,6 +344,7 @@
 <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/incidentOutcomeDescription> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
 <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/incidentOutcomeDescription> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/IncidentOutcome> .
 <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/incidentOutcomeDescription> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/incidentOutcomeDescription> <http://www.w3.org/2000/01/rdf-schema#label> "incidentOutcomeDescription"@en .
 # 
 # http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/intentedPurpose
 <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/intentedPurpose> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
@@ -486,6 +513,11 @@
 # #################################################################
 # 
 # 
+# http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#ManufacturerWithCriticalIncidentReported
+<http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#ManufacturerWithCriticalIncidentReported> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#ManufacturerWithCriticalIncidentReported> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/Manufacturer> .
+<http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#ManufacturerWithCriticalIncidentReported> <http://www.w3.org/2000/01/rdf-schema#label> "ManufacturerWithCriticalIncidentReported"@en .
+# 
 # http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/CompetentAuthority
 <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/CompetentAuthority> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/CompetentAuthority> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/EUMedicalEntity> .
@@ -558,7 +590,7 @@ _:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 # 
 # http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/EUMedicalEntity
 <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/EUMedicalEntity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/EUMedicalEntity> <http://www.w3.org/2000/01/rdf-schema#label> "Generic Medical Entity"@en .
+<http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/EUMedicalEntity> <http://www.w3.org/2000/01/rdf-schema#comment> "Generic Medical Entity"@en .
 <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/EUMedicalEntity> <http://www.w3.org/2000/01/rdf-schema#label> "EUMedicalEntity" .
 # 
 # http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/IVDRiskClass
@@ -571,7 +603,7 @@ _:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/InSituCorrection> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/InSituCorrection> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/CorrectiveAction> .
 <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/InSituCorrection> <http://www.w3.org/2000/01/rdf-schema#comment> "Corrective action taken in the same place it happened."@en .
-<http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/InSituCorrection> <http://www.w3.org/2000/01/rdf-schema#label> "in situ correction"@en .
+<http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/InSituCorrection> <http://www.w3.org/2000/01/rdf-schema#label> "inSituCorrection"@en .
 # 
 # http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/InapropriateShockDelivery
 <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/InapropriateShockDelivery> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -664,7 +696,7 @@ _:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/Recall> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/Recall> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/CorrectiveAction> .
 <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/Recall> <http://www.w3.org/2000/01/rdf-schema#comment> "A recall done to fix the incident."@en .
-<http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/Recall> <http://www.w3.org/2000/01/rdf-schema#label> "recall"@en .
+<http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/Recall> <http://www.w3.org/2000/01/rdf-schema#label> "Recall"@en .
 # 
 # http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/RegulatoryFramework
 <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/RegulatoryFramework> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -704,7 +736,7 @@ _:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/SafetyAlert> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/SafetyAlert> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/CorrectiveAction> .
 <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/SafetyAlert> <http://www.w3.org/2000/01/rdf-schema#comment> "A safe alert was raised to mitigate the risk and fix the incident."@en .
-<http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/SafetyAlert> <http://www.w3.org/2000/01/rdf-schema#label> "safe alert"@en .
+<http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/SafetyAlert> <http://www.w3.org/2000/01/rdf-schema#label> "SafeAlert"@en .
 # 
 # http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/SeriousIncident
 <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/SeriousIncident> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -734,7 +766,7 @@ _:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/UserNotice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/UserNotice> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/CorrectiveAction> .
 <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/UserNotice> <http://www.w3.org/2000/01/rdf-schema#comment> "User was notified."@en .
-<http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/UserNotice> <http://www.w3.org/2000/01/rdf-schema#label> "user notice"@en .
+<http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/UserNotice> <http://www.w3.org/2000/01/rdf-schema#label> "UserNotice"@en .
 # 
 # 
 # 
@@ -748,7 +780,7 @@ _:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 # http://publications.europa.eu/resource/authority/country
 <http://publications.europa.eu/resource/authority/country> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://publications.europa.eu/resource/authority/country> <http://www.w3.org/2000/01/rdf-schema#comment> "Country scheme obtained from ns5."@en .
-<http://publications.europa.eu/resource/authority/country> <http://www.w3.org/2000/01/rdf-schema#label> "country"@en .
+<http://publications.europa.eu/resource/authority/country> <http://www.w3.org/2000/01/rdf-schema#label> "ConceptScheme: country"@en .
 # 
 # http://publications.europa.eu/resource/authority/country/DEU
 <http://publications.europa.eu/resource/authority/country/DEU> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -762,32 +794,31 @@ _:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 # 
 # http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/Ireland
 # 
-# http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/BfArM
-<http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/BfArM> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/BfArM> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/CompetentAuthority> .
-<http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/BfArM> <http://xmlns.com/foaf/0.1/name> "Bundesinstitut für Arzneimittel und Medizinprodukte (BfArM)" .
-<http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/BfArM> <http://www.w3.org/2000/01/rdf-schema#comment> "Competent authority for Ireland"@en .
-<http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/BfArM> <http://www.w3.org/2000/01/rdf-schema#label> "Health Products Regulatory Authority"@en .
+# http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#BfArM
+<http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#BfArM> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#BfArM> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/CompetentAuthority> .
+<http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#BfArM> <http://www.w3.org/2000/01/rdf-schema#comment> "Competent authority for Germany."@en .
+<http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#BfArM> <http://www.w3.org/2000/01/rdf-schema#label> "CompetentAuthority: Bundesinstitut für Arzneimittel und Medizinprodukte"@en .
 # 
 # http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/ClassIII
 <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/ClassIII> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/ClassIII> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/MDRRiskClass> .
 <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/ClassIII> <http://www.w3.org/2000/01/rdf-schema#comment> "Class III: High Risk / Strict NB and Design Audit"@en .
-<http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/ClassIII> <http://www.w3.org/2000/01/rdf-schema#label> "Class III: High Risk" .
+<http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/ClassIII> <http://www.w3.org/2000/01/rdf-schema#label> "RiskClass: Class III / High Risk"@en .
 # 
 # http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/Close
 <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/Close> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/Close> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/Close> <http://www.semanticweb.org/kaik/ontologies/2026/3/mdr-ivdr-eu#inScheme> <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/actionstatus> .
+<http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/Close> <http://www.semanticweb.org/kaik/ontologies/2026/3/mdr-ivdr-eu#skos:inScheme> <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/actionstatus> .
 <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/Close> <http://www.w3.org/2000/01/rdf-schema#comment> "Action status scheme: closed."@en .
-<http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/Close> <http://www.w3.org/2000/01/rdf-schema#label> "Closed"@en .
+<http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/Close> <http://www.w3.org/2000/01/rdf-schema#label> "actionstatus: Closed"@en .
 # 
 # http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/Critical
 <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/Critical> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/Critical> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/Critical> <http://www.semanticweb.org/kaik/ontologies/2026/3/mdr-ivdr-eu#inScheme> <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/severity> .
+<http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/Critical> <http://www.semanticweb.org/kaik/ontologies/2026/3/mdr-ivdr-eu#skos:inScheme> <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/severity> .
 <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/Critical> <http://www.w3.org/2000/01/rdf-schema#comment> "Severity critical"@en .
-<http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/Critical> <http://www.w3.org/2000/01/rdf-schema#label> "Critical" .
+<http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/Critical> <http://www.w3.org/2000/01/rdf-schema#label> "severity: Critical" .
 # 
 # http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/DEV-0001
 <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/DEV-0001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -804,7 +835,7 @@ _:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/DEV-0001> <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/isReusable> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/DEV-0001> <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/udiDi> "(01)00380740009095" .
 <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/DEV-0001> <http://www.w3.org/2000/01/rdf-schema#comment> "Ventricular assist device for end-stage heart failure"@en .
-<http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/DEV-0001> <http://www.w3.org/2000/01/rdf-schema#label> "DEV-001: HeartMate 3 LVAD"@en .
+<http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/DEV-0001> <http://www.w3.org/2000/01/rdf-schema#label> "Device: DEV-001 / HeartMate 3 LVAD"@en .
 # 
 # http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/FSCA-001
 <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/FSCA-001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -818,29 +849,29 @@ _:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/FSCA-001> <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-mrh-ontology#devicesAffected> "850"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/FSCA-001> <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-mrh-ontology#scope> "All HeartMate 3 LVAD units implanted since 2020" .
 <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/FSCA-001> <http://www.w3.org/2000/01/rdf-schema#comment> "Safety alert issued to all implanting centres regarding anticoagulation protocol update for HeartMate 3 to reduce device thrombosis risk. INR target range revised to 2.0–3.0." .
-<http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/FSCA-001> <http://www.w3.org/2000/01/rdf-schema#label> "FSCA-001 / EU-FSCA-2024-000001"@en .
+<http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/FSCA-001> <http://www.w3.org/2000/01/rdf-schema#label> "CorrectiveAction: FSCA-001 / EU-FSCA-2024-000001"@en .
 # 
 # http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/Germany
 <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/Germany> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/Germany> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/Germany> <http://www.semanticweb.org/kaik/ontologies/2026/3/mdr-ivdr-eu#inScheme> <http://publications.europa.eu/resource/authority/country> .
+<http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/Germany> <http://www.semanticweb.org/kaik/ontologies/2026/3/mdr-ivdr-eu#skos:inScheme> <http://publications.europa.eu/resource/authority/country> .
 <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/Germany> <http://www.w3.org/2000/01/rdf-schema#comment> "Germany"@en .
-<http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/Germany> <http://www.w3.org/2000/01/rdf-schema#label> "Germany"@en .
+<http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/Germany> <http://www.w3.org/2000/01/rdf-schema#label> "country: Germany"@en .
 <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/Germany> <http://www.w3.org/2008/05/skos-xl#prefLabel> "\"Germany\"@en" .
 # 
 # http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/HPRA
 <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/HPRA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/HPRA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/CompetentAuthority> .
 <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/HPRA> <http://xmlns.com/foaf/0.1/name> "Health Products Regulatory Authority (HPRA)" .
-<http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/HPRA> <http://www.w3.org/2000/01/rdf-schema#comment> "Competent authority for Germany"@en .
-<http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/HPRA> <http://www.w3.org/2000/01/rdf-schema#label> "Bundesinstitut für Arzneimittel und Medizinprodukte"@de .
+<http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/HPRA> <http://www.w3.org/2000/01/rdf-schema#comment> "Competent authority for Ireland"@en .
+<http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/HPRA> <http://www.w3.org/2000/01/rdf-schema#label> "CompetentAuthority: Health Products Regulatory Authority"@en .
 # 
 # http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/High
 <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/High> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/High> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/High> <http://www.semanticweb.org/kaik/ontologies/2026/3/mdr-ivdr-eu#inScheme> <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/probability> .
+<http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/High> <http://www.semanticweb.org/kaik/ontologies/2026/3/mdr-ivdr-eu#skos:inScheme> <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/probability> .
 <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/High> <http://www.w3.org/2000/01/rdf-schema#comment> "High probability"@en .
-<http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/High> <http://www.w3.org/2000/01/rdf-schema#label> "High" .
+<http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/High> <http://www.w3.org/2000/01/rdf-schema#label> "probability: High"@en .
 # 
 # http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/INC-001
 <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/INC-001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -856,34 +887,35 @@ _:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/INC-001> <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/eventDate> "2024-01-08"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/INC-001> <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/incidentDescription> "Patient implanted with HeartMate 3 LVAD developed ischemic stroke 6 months post-implant. Device thrombus confirmed by echocardiography." .
 <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/INC-001> <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/reportDate> "2024-01-15"^^<http://www.w3.org/2001/XMLSchema#date> .
-<http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/INC-001> <http://www.w3.org/2000/01/rdf-schema#label> "INC-001: EU-INC-2024-000001" .
+<http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/INC-001> <http://www.w3.org/2000/01/rdf-schema#comment> "INC-001"@en .
+<http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/INC-001> <http://www.w3.org/2000/01/rdf-schema#label> "Incident: INC-001 / EU-INC-2024-000001"@en .
 # 
 # http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/IVDR
 <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/IVDR> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/IVDR> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/RegulatoryFramework> .
 <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/IVDR> <http://www.w3.org/2000/01/rdf-schema#comment> "Regulatory framework for In Vitro Diagnosis Device."@en .
-<http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/IVDR> <http://www.w3.org/2000/01/rdf-schema#label> "IVDR - In vitro diagnosis regulation"@en .
+<http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/IVDR> <http://www.w3.org/2000/01/rdf-schema#label> "RegulatoryFramework: IVDR - In vitro diagnosis regulation"@en .
 # 
 # http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/ImplantableActiveDevice
 <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/ImplantableActiveDevice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/ImplantableActiveDevice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/DeviceType> .
 <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/ImplantableActiveDevice> <http://www.w3.org/2000/01/rdf-schema#comment> "A device that is implantable and active."@en .
-<http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/ImplantableActiveDevice> <http://www.w3.org/2000/01/rdf-schema#label> "implantable active device"@en .
+<http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/ImplantableActiveDevice> <http://www.w3.org/2000/01/rdf-schema#label> "DeviceType: Implantable active device"@en .
 # 
 # http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/Ireland
 <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/Ireland> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/Ireland> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/Ireland> <http://www.semanticweb.org/kaik/ontologies/2026/3/mdr-ivdr-eu#inScheme> <http://publications.europa.eu/resource/authority/country> .
+<http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/Ireland> <http://www.semanticweb.org/kaik/ontologies/2026/3/mdr-ivdr-eu#skos:inScheme> <http://publications.europa.eu/resource/authority/country> .
 <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/Ireland> <http://www.w3.org/2000/01/rdf-schema#comment> "Ireland"@en .
-<http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/Ireland> <http://www.w3.org/2000/01/rdf-schema#label> "Ireland" .
+<http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/Ireland> <http://www.w3.org/2000/01/rdf-schema#label> "country: Ireland"@en .
 <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/Ireland> <http://www.w3.org/2008/05/skos-xl#prefLabel> "\"Ireland\"@en" .
 # 
 # http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/Low
 <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/Low> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/Low> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/Low> <http://www.semanticweb.org/kaik/ontologies/2026/3/mdr-ivdr-eu#inScheme> <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/probability> .
+<http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/Low> <http://www.semanticweb.org/kaik/ontologies/2026/3/mdr-ivdr-eu#skos:inScheme> <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/probability> .
 <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/Low> <http://www.w3.org/2000/01/rdf-schema#comment> "Probability is low." .
-<http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/Low> <http://www.w3.org/2000/01/rdf-schema#label> "Low"@en .
+<http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/Low> <http://www.w3.org/2000/01/rdf-schema#label> "probability: Low"@en .
 # 
 # http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/MAN-001
 <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/MAN-001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -896,34 +928,34 @@ _:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/MAN-001> <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/manufacturerId> "MAN-001" .
 <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/MAN-001> <http://xmlns.com/foaf/0.1/name> "Medtronic plc" .
 <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/MAN-001> <http://www.w3.org/2000/01/rdf-schema#comment> "Medtronic plc is an Irish manufacturer."@en .
-<http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/MAN-001> <http://www.w3.org/2000/01/rdf-schema#label> "MAN-001: Medtronic plc"@en .
+<http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/MAN-001> <http://www.w3.org/2000/01/rdf-schema#label> "Manufacturer: MAN-001/Medtronic plc"@en .
 # 
 # http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/MDR
 <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/MDR> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/MDR> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/RegulatoryFramework> .
 <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/MDR> <http://www.w3.org/2000/01/rdf-schema#comment> "Regulatory Framework for medical devices."@en .
-<http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/MDR> <http://www.w3.org/2000/01/rdf-schema#label> "MDR - Medical Device Regulation"@en .
+<http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/MDR> <http://www.w3.org/2000/01/rdf-schema#label> "RegulatoryFramework: MDR - Medical Device Regulation"@en .
 # 
 # http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/Medium
 <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/Medium> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/Medium> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/Medium> <http://www.semanticweb.org/kaik/ontologies/2026/3/mdr-ivdr-eu#inScheme> <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/probability> .
+<http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/Medium> <http://www.semanticweb.org/kaik/ontologies/2026/3/mdr-ivdr-eu#skos:inScheme> <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/probability> .
 <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/Medium> <http://www.w3.org/2000/01/rdf-schema#comment> "Medium severity"@en .
-<http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/Medium> <http://www.w3.org/2000/01/rdf-schema#label> "Medium"@en .
+<http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/Medium> <http://www.w3.org/2000/01/rdf-schema#label> "probabity: Medium"@en .
 # 
 # http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/Moderate
 <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/Moderate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/Moderate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/Moderate> <http://www.semanticweb.org/kaik/ontologies/2026/3/mdr-ivdr-eu#inScheme> <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/severity> .
+<http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/Moderate> <http://www.semanticweb.org/kaik/ontologies/2026/3/mdr-ivdr-eu#skos:inScheme> <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/severity> .
 <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/Moderate> <http://www.w3.org/2000/01/rdf-schema#comment> "Moderate severity"@en .
-<http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/Moderate> <http://www.w3.org/2000/01/rdf-schema#label> "Moderate"@en .
+<http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/Moderate> <http://www.w3.org/2000/01/rdf-schema#label> "severity: Moderate"@en .
 # 
 # http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/Open
 <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/Open> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/Open> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/Open> <http://www.semanticweb.org/kaik/ontologies/2026/3/mdr-ivdr-eu#inScheme> <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/actionstatus> .
+<http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/Open> <http://www.semanticweb.org/kaik/ontologies/2026/3/mdr-ivdr-eu#skos:inScheme> <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/actionstatus> .
 <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/Open> <http://www.w3.org/2000/01/rdf-schema#comment> "Action status Open"@en .
-<http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/Open> <http://www.w3.org/2000/01/rdf-schema#label> "Open"@en .
+<http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/Open> <http://www.w3.org/2000/01/rdf-schema#label> "actionstatus: Open"@en .
 # 
 # http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/PatientHarm
 <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/PatientHarm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -946,22 +978,22 @@ _:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 # http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/Serious
 <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/Serious> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/Serious> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/Serious> <http://www.semanticweb.org/kaik/ontologies/2026/3/mdr-ivdr-eu#inScheme> <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/severity> .
+<http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/Serious> <http://www.semanticweb.org/kaik/ontologies/2026/3/mdr-ivdr-eu#skos:inScheme> <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/severity> .
 <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/Serious> <http://www.w3.org/2000/01/rdf-schema#comment> "Serious severity"@en .
-<http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/Serious> <http://www.w3.org/2000/01/rdf-schema#label> "Serious"@en .
+<http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/Serious> <http://www.w3.org/2000/01/rdf-schema#label> "severity: Serious"@en .
 # 
 # http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/actionstatus
 <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/actionstatus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/actionstatus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
 <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/actionstatus> <http://www.w3.org/2000/01/rdf-schema#comment> "Concept Scheme for Action Status"@en .
-<http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/actionstatus> <http://www.w3.org/2000/01/rdf-schema#label> "actionstatus"@en .
+<http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/actionstatus> <http://www.w3.org/2000/01/rdf-schema#label> "ConceptScheme: actionstatus"@en .
 # 
 # http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/embolic_stroke
 <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/embolic_stroke> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/embolic_stroke> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/SeriousPacientInjury> .
 <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/embolic_stroke> <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/incidentOutcomeDescription> "embolic stroke" .
 <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/embolic_stroke> <http://www.w3.org/2000/01/rdf-schema#comment> "Incident results as an embolic stroke."@en .
-<http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/embolic_stroke> <http://www.w3.org/2000/01/rdf-schema#label> "embolic stroke"@en .
+<http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/embolic_stroke> <http://www.w3.org/2000/01/rdf-schema#label> "IncidentOutcome: embolic stroke"@en .
 # 
 # http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/probability
 <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/probability> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -981,20 +1013,20 @@ _:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 # 
 # 
 <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/PatientHarm> <http://www.w3.org/2000/01/rdf-schema#comment> "Patient ended up harmed." .
-<http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/PatientHarm> <http://www.w3.org/2000/01/rdf-schema#label> "PatientHarm"@en .
+<http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/PatientHarm> <http://www.w3.org/2000/01/rdf-schema#label> "RiskCategory: PatientHarm"@en .
 # 
 <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/Spain> <http://www.w3.org/2000/01/rdf-schema#comment> "Country Spain"@en .
 <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/Spain> <http://www.w3.org/2000/01/rdf-schema#label> "Spain"@en .
 # 
 <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/probability> <http://www.w3.org/2000/01/rdf-schema#comment> "The probability that a risk may take place."@en .
-<http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/probability> <http://www.w3.org/2000/01/rdf-schema#label> "probability"@en .
+<http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/probability> <http://www.w3.org/2000/01/rdf-schema#label> "ConceptScheme: probability"@en .
 # 
 <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/reportingEntity> <http://www.w3.org/2000/01/rdf-schema#comment> "DEPRECATED Manufacturer that reported the incident"@en .
 <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/reportingEntity> <http://www.w3.org/2000/01/rdf-schema#label> "DEPRECATED reporting entity"@en .
 <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/reportingEntity> <http://www.w3.org/2002/07/owl#deprecated> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 # 
 <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/severity> <http://www.w3.org/2000/01/rdf-schema#comment> "Severity of determined risk."@en .
-<http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/severity> <http://www.w3.org/2000/01/rdf-schema#label> "severity"@en .
+<http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/severity> <http://www.w3.org/2000/01/rdf-schema#label> "ConceptScheme: severity"@en .
 # 
 # 
 # 

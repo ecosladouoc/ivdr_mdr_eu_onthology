@@ -36,6 +36,15 @@ xsd:date rdf:type rdfs:Datatype .
 #    Object Properties
 #################################################################
 
+###  http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#possiblyAffectedByRisk
+:possiblyAffectedByRisk rdf:type owl:ObjectProperty ;
+                        rdfs:subPropertyOf owl:topObjectProperty ;
+                        rdfs:domain <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/Device> ;
+                        rdfs:range <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/Risk> ;
+                        rdfs:comment "Inferred property that relates a device with a risk. Calculated by the relation with relationType."@en ;
+                        rdfs:label "possiblyAffectedByRisk"@en .
+
+
 ###  http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/actionStatus
 <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/actionStatus> rdf:type owl:ObjectProperty ;
                                                                                                   rdfs:subPropertyOf owl:topObjectProperty ;
@@ -132,6 +141,8 @@ xsd:date rdf:type rdfs:Datatype .
 ###  http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/regulatoryFramework
 <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/regulatoryFramework> rdf:type owl:ObjectProperty ;
                                                                                                          rdfs:subPropertyOf owl:topObjectProperty ;
+                                                                                                         rdfs:domain <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/Device> ;
+                                                                                                         rdfs:range <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/RegulatoryFramework> ;
                                                                                                          rdfs:comment "The regulatory framework that rules a device."@en ;
                                                                                                          rdfs:label "regulatoryFramework"@en .
 
@@ -206,9 +217,22 @@ xsd:date rdf:type rdfs:Datatype .
 <http://www.semanticweb.org/kaik/ontologies/2026/3/mdr-ivdr-eu#inScheme> rdf:type owl:ObjectProperty .
 
 
+###  http://www.semanticweb.org/kaik/ontologies/2026/3/mdr-ivdr-eu#skos:inScheme
+<http://www.semanticweb.org/kaik/ontologies/2026/3/mdr-ivdr-eu#skos:inScheme> rdf:type owl:ObjectProperty .
+
+
 #################################################################
 #    Data properties
 #################################################################
+
+###  http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#criticalIncidentReported
+:criticalIncidentReported rdf:type owl:DatatypeProperty ;
+                          rdfs:subPropertyOf owl:topDataProperty ;
+                          rdfs:domain <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/Manufacturer> ;
+                          rdfs:range xsd:boolean ;
+                          rdfs:comment "Indicates wheter the manufacturer reported an incident with critical risk or not."@en ;
+                          rdfs:label "criticalIncidentReported"@en .
+
 
 ###  http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/authorizationNumber
 <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/authorizationNumber> rdf:type owl:DatatypeProperty ;
@@ -224,7 +248,8 @@ xsd:date rdf:type rdfs:Datatype .
                                                                                                  rdfs:subPropertyOf owl:topDataProperty ;
                                                                                                  rdfs:domain <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/CorrectiveAction> ;
                                                                                                  rdfs:range xsd:date ;
-                                                                                                 rdfs:comment "The date the action finished."@en .
+                                                                                                 rdfs:comment "The date the action finished."@en ;
+                                                                                                 rdfs:label "closureDate"@en .
 
 
 ###  http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/contactEmail
@@ -240,7 +265,9 @@ xsd:date rdf:type rdfs:Datatype .
 <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/correctiveActionDescription> rdf:type owl:DatatypeProperty ;
                                                                                                                  rdfs:subPropertyOf owl:topDataProperty ;
                                                                                                                  rdfs:domain <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/CorrectiveAction> ;
-                                                                                                                 rdfs:range xsd:string .
+                                                                                                                 rdfs:range xsd:string ;
+                                                                                                                 rdfs:comment "A text describing the corrective action."@en ;
+                                                                                                                 rdfs:label "correctiveActionDescription"@en .
 
 
 ###  http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/correctiveActionTaken
@@ -328,7 +355,9 @@ xsd:date rdf:type rdfs:Datatype .
 <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/incidentDescription> rdf:type owl:DatatypeProperty ;
                                                                                                          rdfs:subPropertyOf owl:topDataProperty ;
                                                                                                          rdfs:domain <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/Incident> ;
-                                                                                                         rdfs:range xsd:string .
+                                                                                                         rdfs:range xsd:string ;
+                                                                                                         rdfs:comment "A text describing the incident."@en ;
+                                                                                                         rdfs:label "incidentDescription"@en .
 
 
 ###  http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/incidentId
@@ -344,7 +373,8 @@ xsd:date rdf:type rdfs:Datatype .
 <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/incidentOutcomeDescription> rdf:type owl:DatatypeProperty ;
                                                                                                                 rdfs:subPropertyOf owl:topDataProperty ;
                                                                                                                 rdfs:domain <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/IncidentOutcome> ;
-                                                                                                                rdfs:range xsd:string .
+                                                                                                                rdfs:range xsd:string ;
+                                                                                                                rdfs:label "incidentOutcomeDescription"@en .
 
 
 ###  http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/intentedPurpose
@@ -530,6 +560,12 @@ xsd:date rdf:type rdfs:Datatype .
 #    Classes
 #################################################################
 
+###  http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#ManufacturerWithCriticalIncidentReported
+:ManufacturerWithCriticalIncidentReported rdf:type owl:Class ;
+                                          rdfs:subClassOf <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/Manufacturer> ;
+                                          rdfs:label "ManufacturerWithCriticalIncidentReported"@en .
+
+
 ###  http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/CompetentAuthority
 <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/CompetentAuthority> rdf:type owl:Class ;
                                                                                                         rdfs:subClassOf <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/EUMedicalEntity> ,
@@ -612,8 +648,8 @@ xsd:date rdf:type rdfs:Datatype .
 
 ###  http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/EUMedicalEntity
 <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/EUMedicalEntity> rdf:type owl:Class ;
-                                                                                                     rdfs:label "Generic Medical Entity"@en ,
-                                                                                                                "EUMedicalEntity" .
+                                                                                                     rdfs:comment "Generic Medical Entity"@en ;
+                                                                                                     rdfs:label "EUMedicalEntity" .
 
 
 ###  http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/IVDRiskClass
@@ -630,7 +666,7 @@ Class D: High patient risk and high public health risk"""@en ;
 <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/InSituCorrection> rdf:type owl:Class ;
                                                                                                       rdfs:subClassOf <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/CorrectiveAction> ;
                                                                                                       rdfs:comment "Corrective action taken in the same place it happened."@en ;
-                                                                                                      rdfs:label "in situ correction"@en .
+                                                                                                      rdfs:label "inSituCorrection"@en .
 
 
 ###  http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/InapropriateShockDelivery
@@ -739,7 +775,7 @@ Class III: High Risk, Strictest NB and Design Audit"""@en ;
 <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/Recall> rdf:type owl:Class ;
                                                                                             rdfs:subClassOf <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/CorrectiveAction> ;
                                                                                             rdfs:comment "A recall done to fix the incident."@en ;
-                                                                                            rdfs:label "recall"@en .
+                                                                                            rdfs:label "Recall"@en .
 
 
 ###  http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/RegulatoryFramework
@@ -784,7 +820,7 @@ Class III: High Risk, Strictest NB and Design Audit"""@en ;
 <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/SafetyAlert> rdf:type owl:Class ;
                                                                                                  rdfs:subClassOf <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/CorrectiveAction> ;
                                                                                                  rdfs:comment "A safe alert was raised to mitigate the risk and fix the incident."@en ;
-                                                                                                 rdfs:label "safe alert"@en .
+                                                                                                 rdfs:label "SafeAlert"@en .
 
 
 ###  http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/SeriousIncident
@@ -819,7 +855,7 @@ Class III: High Risk, Strictest NB and Design Audit"""@en ;
 <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/UserNotice> rdf:type owl:Class ;
                                                                                                 rdfs:subClassOf <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/CorrectiveAction> ;
                                                                                                 rdfs:comment "User was notified."@en ;
-                                                                                                rdfs:label "user notice"@en .
+                                                                                                rdfs:label "UserNotice"@en .
 
 
 #################################################################
@@ -829,7 +865,7 @@ Class III: High Risk, Strictest NB and Design Audit"""@en ;
 ###  http://publications.europa.eu/resource/authority/country
 <http://publications.europa.eu/resource/authority/country> rdf:type owl:NamedIndividual ;
                                                            rdfs:comment "Country scheme obtained from ns5."@en ;
-                                                           rdfs:label "country"@en .
+                                                           rdfs:label "ConceptScheme: country"@en .
 
 
 ###  http://publications.europa.eu/resource/authority/country/DEU
@@ -846,35 +882,34 @@ Class III: High Risk, Strictest NB and Design Audit"""@en ;
 
 ###  http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/Ireland
 
-###  http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/BfArM
-<http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/BfArM> rdf:type owl:NamedIndividual ,
-                                                                                                    <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/CompetentAuthority> ;
-                                                                                           <http://xmlns.com/foaf/0.1/name> "Bundesinstitut für Arzneimittel und Medizinprodukte (BfArM)" ;
-                                                                                           rdfs:comment "Competent authority for Ireland"@en ;
-                                                                                           rdfs:label "Health Products Regulatory Authority"@en .
+###  http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#BfArM
+:BfArM rdf:type owl:NamedIndividual ,
+                <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/CompetentAuthority> ;
+       rdfs:comment "Competent authority for Germany."@en ;
+       rdfs:label "CompetentAuthority: Bundesinstitut für Arzneimittel und Medizinprodukte"@en .
 
 
 ###  http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/ClassIII
 <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/ClassIII> rdf:type owl:NamedIndividual ,
                                                                                                        <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/MDRRiskClass> ;
                                                                                               rdfs:comment "Class III: High Risk / Strict NB and Design Audit"@en ;
-                                                                                              rdfs:label "Class III: High Risk" .
+                                                                                              rdfs:label "RiskClass: Class III / High Risk"@en .
 
 
 ###  http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/Close
 <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/Close> rdf:type owl:NamedIndividual ,
                                                                                                     <http://www.w3.org/2004/02/skos/core#Concept> ;
-                                                                                           <http://www.semanticweb.org/kaik/ontologies/2026/3/mdr-ivdr-eu#inScheme> <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/actionstatus> ;
+                                                                                           <http://www.semanticweb.org/kaik/ontologies/2026/3/mdr-ivdr-eu#skos:inScheme> <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/actionstatus> ;
                                                                                            rdfs:comment "Action status scheme: closed."@en ;
-                                                                                           rdfs:label "Closed"@en .
+                                                                                           rdfs:label "actionstatus: Closed"@en .
 
 
 ###  http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/Critical
 <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/Critical> rdf:type owl:NamedIndividual ,
                                                                                                        <http://www.w3.org/2004/02/skos/core#Concept> ;
-                                                                                              <http://www.semanticweb.org/kaik/ontologies/2026/3/mdr-ivdr-eu#inScheme> <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/severity> ;
+                                                                                              <http://www.semanticweb.org/kaik/ontologies/2026/3/mdr-ivdr-eu#skos:inScheme> <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/severity> ;
                                                                                               rdfs:comment "Severity critical"@en ;
-                                                                                              rdfs:label "Critical" .
+                                                                                              rdfs:label "severity: Critical" .
 
 
 ###  http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/DEV-0001
@@ -892,7 +927,7 @@ Class III: High Risk, Strictest NB and Design Audit"""@en ;
                                                                                               <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/isReusable> "false"^^xsd:boolean ;
                                                                                               <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/udiDi> "(01)00380740009095" ;
                                                                                               rdfs:comment "Ventricular assist device for end-stage heart failure"@en ;
-                                                                                              rdfs:label "DEV-001: HeartMate 3 LVAD"@en .
+                                                                                              rdfs:label "Device: DEV-001 / HeartMate 3 LVAD"@en .
 
 
 ###  http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/FSCA-001
@@ -907,15 +942,15 @@ Class III: High Risk, Strictest NB and Design Audit"""@en ;
                                                                                               <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-mrh-ontology#devicesAffected> 850 ;
                                                                                               <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-mrh-ontology#scope> "All HeartMate 3 LVAD units implanted since 2020" ;
                                                                                               rdfs:comment "Safety alert issued to all implanting centres regarding anticoagulation protocol update for HeartMate 3 to reduce device thrombosis risk. INR target range revised to 2.0–3.0." ;
-                                                                                              rdfs:label "FSCA-001 / EU-FSCA-2024-000001"@en .
+                                                                                              rdfs:label "CorrectiveAction: FSCA-001 / EU-FSCA-2024-000001"@en .
 
 
 ###  http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/Germany
 <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/Germany> rdf:type owl:NamedIndividual ,
                                                                                                       <http://www.w3.org/2004/02/skos/core#Concept> ;
-                                                                                             <http://www.semanticweb.org/kaik/ontologies/2026/3/mdr-ivdr-eu#inScheme> <http://publications.europa.eu/resource/authority/country> ;
+                                                                                             <http://www.semanticweb.org/kaik/ontologies/2026/3/mdr-ivdr-eu#skos:inScheme> <http://publications.europa.eu/resource/authority/country> ;
                                                                                              rdfs:comment "Germany"@en ;
-                                                                                             rdfs:label "Germany"@en ;
+                                                                                             rdfs:label "country: Germany"@en ;
                                                                                              <http://www.w3.org/2008/05/skos-xl#prefLabel> "\"Germany\"@en" .
 
 
@@ -923,16 +958,16 @@ Class III: High Risk, Strictest NB and Design Audit"""@en ;
 <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/HPRA> rdf:type owl:NamedIndividual ,
                                                                                                    <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/CompetentAuthority> ;
                                                                                           <http://xmlns.com/foaf/0.1/name> "Health Products Regulatory Authority (HPRA)" ;
-                                                                                          rdfs:comment "Competent authority for Germany"@en ;
-                                                                                          rdfs:label "Bundesinstitut für Arzneimittel und Medizinprodukte"@de .
+                                                                                          rdfs:comment "Competent authority for Ireland"@en ;
+                                                                                          rdfs:label "CompetentAuthority: Health Products Regulatory Authority"@en .
 
 
 ###  http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/High
 <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/High> rdf:type owl:NamedIndividual ,
                                                                                                    <http://www.w3.org/2004/02/skos/core#Concept> ;
-                                                                                          <http://www.semanticweb.org/kaik/ontologies/2026/3/mdr-ivdr-eu#inScheme> <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/probability> ;
+                                                                                          <http://www.semanticweb.org/kaik/ontologies/2026/3/mdr-ivdr-eu#skos:inScheme> <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/probability> ;
                                                                                           rdfs:comment "High probability"@en ;
-                                                                                          rdfs:label "High" .
+                                                                                          rdfs:label "probability: High"@en .
 
 
 ###  http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/INC-001
@@ -949,38 +984,39 @@ Class III: High Risk, Strictest NB and Design Audit"""@en ;
                                                                                              <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/eventDate> "2024-01-08"^^xsd:date ;
                                                                                              <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/incidentDescription> "Patient implanted with HeartMate 3 LVAD developed ischemic stroke 6 months post-implant. Device thrombus confirmed by echocardiography." ;
                                                                                              <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/reportDate> "2024-01-15"^^xsd:date ;
-                                                                                             rdfs:label "INC-001: EU-INC-2024-000001" .
+                                                                                             rdfs:comment "INC-001"@en ;
+                                                                                             rdfs:label "Incident: INC-001 / EU-INC-2024-000001"@en .
 
 
 ###  http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/IVDR
 <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/IVDR> rdf:type owl:NamedIndividual ,
                                                                                                    <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/RegulatoryFramework> ;
                                                                                           rdfs:comment "Regulatory framework for In Vitro Diagnosis Device."@en ;
-                                                                                          rdfs:label "IVDR - In vitro diagnosis regulation"@en .
+                                                                                          rdfs:label "RegulatoryFramework: IVDR - In vitro diagnosis regulation"@en .
 
 
 ###  http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/ImplantableActiveDevice
 <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/ImplantableActiveDevice> rdf:type owl:NamedIndividual ,
                                                                                                                       <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/DeviceType> ;
                                                                                                              rdfs:comment "A device that is implantable and active."@en ;
-                                                                                                             rdfs:label "implantable active device"@en .
+                                                                                                             rdfs:label "DeviceType: Implantable active device"@en .
 
 
 ###  http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/Ireland
 <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/Ireland> rdf:type owl:NamedIndividual ,
                                                                                                       <http://www.w3.org/2004/02/skos/core#Concept> ;
-                                                                                             <http://www.semanticweb.org/kaik/ontologies/2026/3/mdr-ivdr-eu#inScheme> <http://publications.europa.eu/resource/authority/country> ;
+                                                                                             <http://www.semanticweb.org/kaik/ontologies/2026/3/mdr-ivdr-eu#skos:inScheme> <http://publications.europa.eu/resource/authority/country> ;
                                                                                              rdfs:comment "Ireland"@en ;
-                                                                                             rdfs:label "Ireland" ;
+                                                                                             rdfs:label "country: Ireland"@en ;
                                                                                              <http://www.w3.org/2008/05/skos-xl#prefLabel> "\"Ireland\"@en" .
 
 
 ###  http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/Low
 <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/Low> rdf:type owl:NamedIndividual ,
                                                                                                   <http://www.w3.org/2004/02/skos/core#Concept> ;
-                                                                                         <http://www.semanticweb.org/kaik/ontologies/2026/3/mdr-ivdr-eu#inScheme> <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/probability> ;
+                                                                                         <http://www.semanticweb.org/kaik/ontologies/2026/3/mdr-ivdr-eu#skos:inScheme> <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/probability> ;
                                                                                          rdfs:comment "Probability is low." ;
-                                                                                         rdfs:label "Low"@en .
+                                                                                         rdfs:label "probability: Low"@en .
 
 
 ###  http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/MAN-001
@@ -994,38 +1030,38 @@ Class III: High Risk, Strictest NB and Design Audit"""@en ;
                                                                                              <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/manufacturerId> "MAN-001" ;
                                                                                              <http://xmlns.com/foaf/0.1/name> "Medtronic plc" ;
                                                                                              rdfs:comment "Medtronic plc is an Irish manufacturer."@en ;
-                                                                                             rdfs:label "MAN-001: Medtronic plc"@en .
+                                                                                             rdfs:label "Manufacturer: MAN-001/Medtronic plc"@en .
 
 
 ###  http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/MDR
 <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/MDR> rdf:type owl:NamedIndividual ,
                                                                                                   <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/RegulatoryFramework> ;
                                                                                          rdfs:comment "Regulatory Framework for medical devices."@en ;
-                                                                                         rdfs:label "MDR - Medical Device Regulation"@en .
+                                                                                         rdfs:label "RegulatoryFramework: MDR - Medical Device Regulation"@en .
 
 
 ###  http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/Medium
 <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/Medium> rdf:type owl:NamedIndividual ,
                                                                                                      <http://www.w3.org/2004/02/skos/core#Concept> ;
-                                                                                            <http://www.semanticweb.org/kaik/ontologies/2026/3/mdr-ivdr-eu#inScheme> <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/probability> ;
+                                                                                            <http://www.semanticweb.org/kaik/ontologies/2026/3/mdr-ivdr-eu#skos:inScheme> <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/probability> ;
                                                                                             rdfs:comment "Medium severity"@en ;
-                                                                                            rdfs:label "Medium"@en .
+                                                                                            rdfs:label "probabity: Medium"@en .
 
 
 ###  http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/Moderate
 <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/Moderate> rdf:type owl:NamedIndividual ,
                                                                                                        <http://www.w3.org/2004/02/skos/core#Concept> ;
-                                                                                              <http://www.semanticweb.org/kaik/ontologies/2026/3/mdr-ivdr-eu#inScheme> <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/severity> ;
+                                                                                              <http://www.semanticweb.org/kaik/ontologies/2026/3/mdr-ivdr-eu#skos:inScheme> <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/severity> ;
                                                                                               rdfs:comment "Moderate severity"@en ;
-                                                                                              rdfs:label "Moderate"@en .
+                                                                                              rdfs:label "severity: Moderate"@en .
 
 
 ###  http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/Open
 <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/Open> rdf:type owl:NamedIndividual ,
                                                                                                    <http://www.w3.org/2004/02/skos/core#Concept> ;
-                                                                                          <http://www.semanticweb.org/kaik/ontologies/2026/3/mdr-ivdr-eu#inScheme> <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/actionstatus> ;
+                                                                                          <http://www.semanticweb.org/kaik/ontologies/2026/3/mdr-ivdr-eu#skos:inScheme> <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/actionstatus> ;
                                                                                           rdfs:comment "Action status Open"@en ;
-                                                                                          rdfs:label "Open"@en .
+                                                                                          rdfs:label "actionstatus: Open"@en .
 
 
 ###  http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/PatientHarm
@@ -1051,16 +1087,16 @@ Class III: High Risk, Strictest NB and Design Audit"""@en ;
 ###  http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/Serious
 <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/Serious> rdf:type owl:NamedIndividual ,
                                                                                                       <http://www.w3.org/2004/02/skos/core#Concept> ;
-                                                                                             <http://www.semanticweb.org/kaik/ontologies/2026/3/mdr-ivdr-eu#inScheme> <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/severity> ;
+                                                                                             <http://www.semanticweb.org/kaik/ontologies/2026/3/mdr-ivdr-eu#skos:inScheme> <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/severity> ;
                                                                                              rdfs:comment "Serious severity"@en ;
-                                                                                             rdfs:label "Serious"@en .
+                                                                                             rdfs:label "severity: Serious"@en .
 
 
 ###  http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/actionstatus
 <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/actionstatus> rdf:type owl:NamedIndividual ,
                                                                                                            <http://www.w3.org/2004/02/skos/core#ConceptScheme> ;
                                                                                                   rdfs:comment "Concept Scheme for Action Status"@en ;
-                                                                                                  rdfs:label "actionstatus"@en .
+                                                                                                  rdfs:label "ConceptScheme: actionstatus"@en .
 
 
 ###  http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/embolic_stroke
@@ -1068,7 +1104,7 @@ Class III: High Risk, Strictest NB and Design Audit"""@en ;
                                                                                                              <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/SeriousPacientInjury> ;
                                                                                                     <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/incidentOutcomeDescription> "embolic stroke" ;
                                                                                                     rdfs:comment "Incident results as an embolic stroke."@en ;
-                                                                                                    rdfs:label "embolic stroke"@en .
+                                                                                                    rdfs:label "IncidentOutcome: embolic stroke"@en .
 
 
 ###  http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/probability
@@ -1086,7 +1122,7 @@ Class III: High Risk, Strictest NB and Design Audit"""@en ;
 #################################################################
 
 <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/PatientHarm> rdfs:comment "Patient ended up harmed." ;
-                                                                                                 rdfs:label "PatientHarm"@en .
+                                                                                                 rdfs:label "RiskCategory: PatientHarm"@en .
 
 
 <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/Spain> rdfs:comment "Country Spain"@en ;
@@ -1094,7 +1130,7 @@ Class III: High Risk, Strictest NB and Design Audit"""@en ;
 
 
 <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/probability> rdfs:comment "The probability that a risk may take place."@en ;
-                                                                                                 rdfs:label "probability"@en .
+                                                                                                 rdfs:label "ConceptScheme: probability"@en .
 
 
 <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/reportingEntity> rdfs:comment "DEPRECATED Manufacturer that reported the incident"@en ;
@@ -1103,7 +1139,7 @@ Class III: High Risk, Strictest NB and Design Audit"""@en ;
 
 
 <http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/severity> rdfs:comment "Severity of determined risk."@en ;
-                                                                                              rdfs:label "severity"@en .
+                                                                                              rdfs:label "ConceptScheme: severity"@en .
 
 
 #################################################################
