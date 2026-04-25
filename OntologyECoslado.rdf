@@ -286,24 +286,13 @@
 
     <!-- http://www.semanticweb.org/kaik/ontologies/2026/3/mdr-ivdr-eu#inScheme -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kaik/ontologies/2026/3/mdr-ivdr-eu#inScheme">
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kaik/ontologies/2026/3/mdr-ivdr-eu#inScheme"/>
     
 
 
     <!-- http://www.semanticweb.org/kaik/ontologies/2026/3/mdr-ivdr-eu#skos:inScheme -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kaik/ontologies/2026/3/mdr-ivdr-eu#skos:inScheme"/>
-    
-
-
-    <!-- http://www.w3.org/2002/07/owl#topObjectProperty -->
-
-    <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#topObjectProperty">
-        <rdfs:domain rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
-    </rdf:Description>
     
 
 
@@ -516,7 +505,6 @@
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/IncidentOutcome"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-        <rdfs:comment xml:lang="en">Text that describes the outcome of an incident.</rdfs:comment>
         <rdfs:label xml:lang="en">incidentOutcomeDescription</rdfs:label>
     </owl:DatatypeProperty>
     
@@ -690,9 +678,8 @@
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/CorrectiveAction"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
-        <rdfs:comment xml:lang="en">DEPRECATED The date the action was ended.</rdfs:comment>
-        <rdfs:label xml:lang="en">DEPRECATED closureDate</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <rdfs:comment xml:lang="en">The date the action was ended.</rdfs:comment>
+        <rdfs:label xml:lang="en">closureDate</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -780,7 +767,6 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#ManufacturerWithCriticalIncidentReported">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/Manufacturer"/>
-        <rdfs:comment xml:lang="en">A manufacturer that reported at least an incident with Critical serverity risk.</rdfs:comment>
         <rdfs:label xml:lang="en">ManufacturerWithCriticalIncidentReported</rdfs:label>
     </owl:Class>
     
@@ -875,7 +861,6 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/DeviceType">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/EUMedicalEntity"/>
-        <rdfs:comment xml:lang="en">Classifcation of devices.</rdfs:comment>
         <rdfs:label xml:lang="en">DeviceType</rdfs:label>
     </owl:Class>
     
