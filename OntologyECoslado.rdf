@@ -80,13 +80,6 @@
     
 
 
-    <!-- http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/affectedRiskClass -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/affectedRiskClass">
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:ObjectProperty>
-    
-
 
     <!-- http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/country -->
 
@@ -248,16 +241,6 @@
         <rdfs:range rdf:resource="http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/RiskClass"/>
         <rdfs:comment xml:lang="en">A risk-oriented device classification.</rdfs:comment>
         <rdfs:label xml:lang="en">riskClass</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/riskDeviceType -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/riskDeviceType">
-        <rdfs:comment xml:lang="en">DEPRECATED The Device Type related with a risk.</rdfs:comment>
-        <rdfs:label xml:lang="en">DEPRECATED riskDeviceType</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:ObjectProperty>
     
 
@@ -1566,11 +1549,6 @@ Class III: High Risk, Strictest NB and Design Audit</rdfs:comment>
     <rdf:Description rdf:about="http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/probability">
         <rdfs:comment xml:lang="en">The probability that a risk may take place.</rdfs:comment>
         <rdfs:label xml:lang="en">ConceptScheme: probability</rdfs:label>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/reportingEntity">
-        <rdfs:comment xml:lang="en">DEPRECATED Manufacturer that reported the incident</rdfs:comment>
-        <rdfs:label xml:lang="en">DEPRECATED reporting entity</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/severity">
         <rdfs:comment xml:lang="en">Severity of determined risk.</rdfs:comment>
