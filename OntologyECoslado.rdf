@@ -36,6 +36,23 @@
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/kaik/ontologies/2026/3/mdr-ivdr-eu#skos:inScheme -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/kaik/ontologies/2026/3/mdr-ivdr-eu#skos:inScheme"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
     // Object Properties
     //
     ///////////////////////////////////////////////////////////////////////////////////////
@@ -52,6 +69,18 @@
         <rdfs:range rdf:resource="http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/Risk"/>
         <rdfs:comment xml:lang="en">Inferred property that relates a device with a risk. Calculated by the relation with relationType.</rdfs:comment>
         <rdfs:label xml:lang="en">possiblyAffectedByRisk</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#skos:inScheme -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu#skos:inScheme">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+        <rdfs:comment xml:lang="en">in scheme</rdfs:comment>
+        <rdfs:comment xml:lang="en">is in scheme</rdfs:comment>
     </owl:ObjectProperty>
     
 
@@ -198,16 +227,6 @@
     
 
 
-    <!-- http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/reportingEntity -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/reportingEntity">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/Incident"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/Manufacturer"/>
-    </owl:ObjectProperty>
-    
-
-
     <!-- http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/reportingManufacturer -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/reportingManufacturer">
@@ -264,7 +283,6 @@
         <rdfs:label xml:lang="en">supervisedBy</rdfs:label>
     </owl:ObjectProperty>
     
-
 
 
     <!-- 
@@ -590,12 +608,6 @@
     
 
 
-    <!-- http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/reportingEntity -->
-
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/reportingEntity"/>
-    
-
-
     <!-- http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/riskId -->
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/riskId">
@@ -640,18 +652,6 @@
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
         <rdfs:comment xml:lang="en">The date that the action was started.</rdfs:comment>
         <rdfs:label xml:lang="en">actionDate</rdfs:label>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-mrh-ontology#closureDate -->
-
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-mrh-ontology#closureDate">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/CorrectiveAction"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
-        <rdfs:comment xml:lang="en">The date the action was ended.</rdfs:comment>
-        <rdfs:label xml:lang="en">closureDate</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -992,7 +992,7 @@ Class III: High Risk, Strictest NB and Design Audit</rdfs:comment>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/country"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/Manufacturer"/>
+                <owl:onClass rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1233,6 +1233,7 @@ Class III: High Risk, Strictest NB and Design Audit</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/Close">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/actionstatus"/>
         <skos1:inScheme rdf:resource="http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/actionstatus"/>
         <rdfs:comment xml:lang="en">Action status scheme: closed.</rdfs:comment>
         <rdfs:label xml:lang="en">actionstatus: Closed</rdfs:label>
@@ -1244,6 +1245,7 @@ Class III: High Risk, Strictest NB and Design Audit</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/Critical">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/severity"/>
         <skos1:inScheme rdf:resource="http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/severity"/>
         <rdfs:comment xml:lang="en">Severity critical</rdfs:comment>
         <rdfs:label>severity: Critical</rdfs:label>
@@ -1294,6 +1296,7 @@ Class III: High Risk, Strictest NB and Design Audit</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/Germany">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://publications.europa.eu/resource/authority/country"/>
         <skos1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/country"/>
         <rdfs:comment xml:lang="en">Germany</rdfs:comment>
         <rdfs:label xml:lang="en">country: Germany</rdfs:label>
@@ -1317,6 +1320,7 @@ Class III: High Risk, Strictest NB and Design Audit</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/High">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/probability"/>
         <skos1:inScheme rdf:resource="http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/probability"/>
         <rdfs:comment xml:lang="en">High probability</rdfs:comment>
         <rdfs:label xml:lang="en">probability: High</rdfs:label>
@@ -1369,6 +1373,7 @@ Class III: High Risk, Strictest NB and Design Audit</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/Ireland">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://publications.europa.eu/resource/authority/country"/>
         <skos1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/country"/>
         <rdfs:comment xml:lang="en">Ireland</rdfs:comment>
         <rdfs:label xml:lang="en">country: Ireland</rdfs:label>
@@ -1381,6 +1386,7 @@ Class III: High Risk, Strictest NB and Design Audit</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/Low">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/probability"/>
         <skos1:inScheme rdf:resource="http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/probability"/>
         <rdfs:comment>Probability is low.</rdfs:comment>
         <rdfs:label xml:lang="en">probability: Low</rdfs:label>
@@ -1419,6 +1425,7 @@ Class III: High Risk, Strictest NB and Design Audit</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/Medium">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/probability"/>
         <skos1:inScheme rdf:resource="http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/probability"/>
         <rdfs:comment xml:lang="en">Medium severity</rdfs:comment>
         <rdfs:label xml:lang="en">probabity: Medium</rdfs:label>
@@ -1430,6 +1437,7 @@ Class III: High Risk, Strictest NB and Design Audit</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/Moderate">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/severity"/>
         <skos1:inScheme rdf:resource="http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/severity"/>
         <rdfs:comment xml:lang="en">Moderate severity</rdfs:comment>
         <rdfs:label xml:lang="en">severity: Moderate</rdfs:label>
@@ -1441,6 +1449,7 @@ Class III: High Risk, Strictest NB and Design Audit</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/Open">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/actionstatus"/>
         <skos1:inScheme rdf:resource="http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/actionstatus"/>
         <rdfs:comment xml:lang="en">Action status Open</rdfs:comment>
         <rdfs:label xml:lang="en">actionstatus: Open</rdfs:label>
@@ -1478,6 +1487,7 @@ Class III: High Risk, Strictest NB and Design Audit</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/Serious">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/severity"/>
         <skos1:inScheme rdf:resource="http://www.semanticweb.org/kaik/ontologies/2026/3/ivd-high-risk-medical-devices-eu/severity"/>
         <rdfs:comment xml:lang="en">Serious severity</rdfs:comment>
         <rdfs:label xml:lang="en">severity: Serious</rdfs:label>
